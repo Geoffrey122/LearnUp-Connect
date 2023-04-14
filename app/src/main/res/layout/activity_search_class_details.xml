@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchClassDetailsActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/mobile_development"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/prof_pacquiao"
+        android:padding="7dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sched"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profname"
+        android:layout_centerInParent="true"
+        android:hint="@string/mwf_sched"
+        android:padding="7dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sched"
+        android:layout_centerInParent="true"
+        android:hint="@string/mode_online"
+        android:padding="7dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/enroll_btn"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/mode"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="75dp"
+        android:backgroundTint="@color/darkBlue"
+        android:text="@string/enroll"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

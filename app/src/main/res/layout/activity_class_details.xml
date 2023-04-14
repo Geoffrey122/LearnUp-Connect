@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_class_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class Name: %s"
+            android:textColor="#A1887F"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:id="@+id/tv_class_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class Description: %s"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:id="@+id/tv_class_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class Mode: %s"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:id="@+id/tv_class_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class Date: %s"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_class_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class Time: %s"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:id="@+id/tv_class_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class Price: %s"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_class_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Max Students: %s"
+            android:textColor="#757575"
+            android:textSize="18sp" />
+
+        <!-- Add other TextViews for other class details as needed -->
+
+    </LinearLayout>
+
+</ScrollView>

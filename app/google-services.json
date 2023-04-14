@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "891201519891",
+    "firebase_url": "https://learnup-connect-5daa4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "learnup-connect-5daa4",
+    "storage_bucket": "learnup-connect-5daa4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891201519891:android:55a4c62a21e54084eadae6",
+        "android_client_info": {
+          "package_name": "ph.dlsu.mobdeve.racela.geoffrey.learnupconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891201519891-l86acr2cg2ni5kqpqhvcli4t47d6iehl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP65uRGPO0psI51ZvsToV-sl-_cXQHCAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891201519891-l86acr2cg2ni5kqpqhvcli4t47d6iehl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

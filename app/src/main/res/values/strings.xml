@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">LearnUp Connect</string>
+    <string name="email" />
+    <string name="Email">email</string>
+    <string name="user_email">Email</string>
+    <string name="user_password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="user_type">User Type</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="student_title">Title</string>
+    <string name="view_enrolled_classes">View Enrolled Classes</string>
+    <string name="view_my_classes">View My Classes</string>
+    <string name="enroll">Enroll Now</string>
+    <string name="search_class">Search Class</string>
+    <string name="send_message">Send A Message</string>
+    <string name="pe">Physical Education</string>
+    <string name="view_details">Click to View Details</string>
+    <string name="send_message_to">Send message to:</string>
+    <string name="sendto">To:</string>
+    <string name="message">Compose Message:</string>
+    <string name="send_button">Send message</string>
+    <string name="search">Search</string>
+    <string name="mobile_development">Mobile Development</string>
+    <string name="prof_pacquiao">Mr. Manny Pacquiao</string>
+    <string name="mwf_sched">MWF 1600–1800</string>
+    <string name="mode_online">ONLINE</string>
+    <string name="enroll_btn">enroll</string>
+    <string name="review">Comments/Suggestions</string>
+    <string name="submit">submit</string>
+    <string name="rate">Rate teacher (1 – 5)</string>
+    <string name="logout">Logout</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="description">Description</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="logout_btn">Logout</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="add_your_description">Add your Description</string>
+    <string name="test_email">teacher@yahoo.com</string>
+    <string name="student_email">student@gmail.com</string>
+    <string name="test_name">Christian Geoffrey</string>
+    <string name="teacher">Teacher</string>
+    <string name="notifs">Notifications</string>
+    <string name="sample_message">Why are you late?</string>
+    <string name="schedule">Your Schedule:</string>
+    <string name="welcome_text">Welcome to</string>
+    <string name="learnup_connect">LearnUp Connect</string>
+    <string name="signin_option">or sign in with</string>
+    <string name="choose_user_type">Choose User Type</string>
+
+    <string-array name="courses_array">
+        <item>Mobile Development TTH 1600–1800</item>
+        <item>Ethics 2 MWF 0900–1200</item>
+        <item>Software Engineering TTH 1030–1230</item>
+        <item>Physical Education MWF 0800–1100</item>
+        <item>Integral Calculus MWF 1300–1500</item>
+        <item>Art Appreciation TTH 1430–1630</item>
+        <item>Oral Communication SAT 1400–1600</item>
+        <item>Practical Research SAT 0900–1100</item>
+        <item>Earth Science MWF 1800–2000</item>
+        <item>Science and Technology TTH 0730–0930</item>
+    </string-array>
+
+    <string-array name="teachers">
+        <item>Mr. Isaac Einstein</item>
+        <item>Dr. Lebron Jordan</item>
+        <item>Mr. Manny Pacquiao</item>
+    </string-array>
+</resources>
